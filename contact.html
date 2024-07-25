@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact form for the biography website">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body id="contact">
+    <header>
+        <h1>Famous Historical Person</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Biography</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="media.html">Media</a></li>
+        </ul>
+    </nav>
+  
+    <main>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color">
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="general">General</option>
+                <option value="feedback">Feedback</option>
+                <option value="inquiry">Inquiry</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Biography Website</p>
+    </footer>
+</body>
+</html>
